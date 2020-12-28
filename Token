@@ -206,7 +206,7 @@ contract Env {
     uint96 public constant feeParts = 1000000;
     uint96 public feeRate = 5000; //0.50%
     address public feeRecipient = 0x215aB1Ef72D636CD59bEba44ddECF71B7C7ef5e7; //Vault address
-    uint256 relaseTime = 1612137600; //unix timestamp
+    uint256 relaseTime = 1612137600; //01-Feb-21 00:00:00 UTC (Fee activation time)
     
     /// @notice Address which may mint new tokens
     address public minter;
